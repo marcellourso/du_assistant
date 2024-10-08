@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: white;
+  background-color: rgb(150, 201, 204);
 }
 .title {
   font-size: 1.5em;
@@ -32,7 +32,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: #efefef;
+  background-color: #ffffff;
   cursor: pointer;
   max-width: 600px;
   width: 120px;

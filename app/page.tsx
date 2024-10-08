@@ -5,10 +5,10 @@ import styles from "./page.module.css";
 
 const Home = () => {
   const categories = {
-    "Basic chat": "basic-chat",
-    "Function calling": "function-calling",
-    "File search": "file-search",
-    All: "all",
+    // "Basic chat": "basic-chat",
+    // "Function calling": "function-calling",
+    "includi file e lavora": "file-search",
+    // All: "all",
   };
 
   return (
@@ -23,6 +23,8 @@ const Home = () => {
           </a>
         ))}
       </div>
+      <img src="/Logo-Maximia-DEF.png" alt="Image description" />
+    
     </main>
   );
 };

@@ -260,19 +260,28 @@ const Chat = ({
         onSubmit={handleSubmit}
         className={`${styles.inputForm} ${styles.clearfix}`}
       >
-        <input
+        {/* <input
           type="text"
           className={styles.input}
           value={userInput}
           onChange={(e) => setUserInput(e.target.value)}
-          placeholder="Enter your question"
+          placeholder="scrivi la domanda"
+        /> */}
+
+        <textarea
+          className={styles.input}
+          value={userInput}
+          onChange={(e) => setUserInput(e.target.value)}
+          placeholder="scrivi la domanda"
+          rows={4} // Senza virgolette, deve essere un numero
+          cols={50} // Anche questo, un numero
         />
         <button
           type="submit"
           className={styles.button}
           disabled={inputDisabled}
         >
-          Send
+          invia
         </button>
       </form>
     </div>

@@ -20,13 +20,13 @@
   border-radius: 60px;
   border: 2px solid transparent;
   font-size: 1em;
-  background-color: #efefef;
+  background-color: #64b4cf;
 }
 
 .input:focus {
   outline: none !important;
-  border-color: #000;
-  background-color: white;
+  border-color: #ffffff;
+  background-color: rgb(155, 155, 155);
 }
 
 .button {
